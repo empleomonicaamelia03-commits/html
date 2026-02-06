@@ -1,0 +1,55 @@
+body{
+    background: white;
+    margin: 0px;
+
+}
+.menubox{
+    background-color: teal;
+    list-style-type: none;
+    margin-top: 0px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.menubox li{
+    display: inline-block; 
+    font-size: 15px; 
+    padding: 15px; 
+}
+.menubox li a{ 
+    display: block;
+    text-decoration: none; 
+    color:white;
+    text-align: left;
+    padding: 10px 14px;
+}
+.menubox li a:hover{
+    color:blue;
+}
+
+.hero{
+    display: flex; 
+    align-items: center; 
+    justify-content: flex-start; /* keep content on the left */ 
+    height: 75vh; 
+    padding: 40px;
+    margin-left: 50px;
+}
+.heroheader{
+    display: flex; 
+    align-items: center; 
+    gap: 50px; /* space between header and image */
+}
+.heroheader img{ 
+    width: 335px; /* adjust size as needed */ 
+    height: auto; 
+}
+.nameheader h1{ 
+    font-size: 50px;
+    margin-right: 30px;
+    margin-left: 80px;
+}
+.nameheader h3{ 
+    font-size: 25px;
+    margin-right: 30px;
+    margin-left: 160px;
+}
