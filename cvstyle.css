@@ -5,7 +5,6 @@ body{
 }
 .menubox{
     background: teal;
-    list-style-type: none;
     margin-top: 0px;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
