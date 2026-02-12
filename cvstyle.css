@@ -1,10 +1,10 @@
 body{
-    background: white;
+    background: linear-gradient(rgb(184, 219, 219), white);
     margin: 0px;
 
 }
 .menubox{
-    background-color: teal;
+    background: teal;
     list-style-type: none;
     margin-top: 0px;
     border-bottom-left-radius: 20px;
@@ -19,9 +19,8 @@ body{
 }
 .menubox li a{ 
     display: block;
-    text-decoration: none; 
     color:white;
-    text-align: left;
+    text-align: center;
     padding: 10px 14px;
 }
 .menubox li a:hover{
@@ -31,7 +30,6 @@ body{
 .hero{
     display: flex; 
     align-items: center; 
-    justify-content: flex-start; 
     height: 75vh; 
     padding: 40px;
     margin-left: 50px;
@@ -39,10 +37,10 @@ body{
 .heroheader{
     display: flex; 
     align-items: center; 
-    gap: 50px; /* space between header and image */
+    gap: 50px;
 }
 .heroheader img{ 
-    width: 335px; /* adjust size as needed */ 
+    width: 335px; 
     height: auto; 
     margin-top: 150px;
 }
@@ -85,22 +83,22 @@ body{
     text-align: center;
 } 
 .card_subheader { 
-    text-align: left; /* aligns headings with content */ 
-    margin-left: 2%; /* consistent spacing */ 
+    text-align: left;
+    margin-left: 2%; 
 }
 .card-body {
-    text-align: left;       /* keeps resume text professional */
-    padding: 1% 2%;         /* balanced padding around text */
+    text-align: left;    
+    padding: 1% 2%;         
 }
 .card-list { 
-    list-style-position: outside; /* bullets outside text block */ 
-    margin: 1%; /* space above/below lists */
+    list-style-position: outside;
+    margin: 1%;
     margin-left: 3%; 
-    padding-left: 25px; /* consistent indentation */ 
+    padding-left: 25px; 
 }
 .card-list li { 
-    margin-bottom: 6px; /* spacing between items */ 
-    line-height: 1.4; /* improves readability */ 
+    margin-bottom: 6px; 
+    line-height: 1.4;
 }
 .card:hover { 
     box-shadow: 0 10px 20px 0 rgba(0,0,0,1); 
