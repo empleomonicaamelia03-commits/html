@@ -103,6 +103,11 @@ body{
     box-shadow: 0 10px 20px 0 rgba(0,0,0,1); 
 } 
 
+#student-list{
+    margin-bottom: 6px; 
+    line-height: 1.4;
+}
+
 .footer{
     background-color: teal;
     list-style-type: none;
