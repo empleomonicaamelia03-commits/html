@@ -1,4 +1,4 @@
-{
+/*{
  "students": [
  {
  "name": "Alice Johnson","age": 20,"course": "Information Technology"
@@ -10,4 +10,4 @@
  "name": "Vince Isaac","age": 19,"course": "Data Science"
  }
  ]
-}
+}*/

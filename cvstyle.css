@@ -6,9 +6,7 @@ body{
 .menubox{
     background: teal;
     margin-top: 0px;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-    position: fixed; top:0; width:97%;
+    position: fixed; top:0; width:100%;
     text-align: center;
 }
 .menubox li{
@@ -31,7 +29,7 @@ body{
     align-items: center; 
     height: 75vh; 
     padding: 40px;
-    margin-left: 50px;
+    margin-left: 150px;
 }
 .heroheader{
     display: flex; 
